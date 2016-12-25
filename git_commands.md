@@ -29,26 +29,45 @@
 
 -****
 
-- **git rm *filename***: Delete filename from staging area. It removes the file from the working directory.
+- **git rm *filename***: Delete filename from staging area. It removes the file
+from the working directory.
 
-- **git rm *filename* --cached**: Delete filename from staging area but don delete the file from the working directory.
+- **git rm *filename* --cached**: Delete filename from staging area but dont
+ delete the file from the working directory.
 
 - **git log**: Tells you a history of commits to monitor your work.
 
-
-<<<<<<< HEAD
 
 ## Git branching and merging
 
 -****
 
--**git merge branch_name**: Lets combine the work of the working branch with the specified branch.
+-**git merge branch_name**: Lets combine the work of the working branch with the
+ specified branch.
 
 - **git branch -d branch_name**: Remove specified branch.
 
-- **git checkout -b branch_name**: Change to another branch named branch_name. If branch does not exist create the branch.
+- **git checkout -b branch_name**: Change to another branch named branch_name.
+If branch does not exist create the branch.
 
-**Note**: Is recommended that you have all changes commited on your working branch before change to another because git wont let you change it until you have commited all files.
-=======
+**Note**: Is recommended that you have all changes commited on your working
+branch before change to another because git wont let you change it until
+you have commited all files.
 
->>>>>>> practice1
+**Note**: If git cannot do the merge automatically the best way is to make the
+ merging manually. When that happen git put markers on conflicting files.  
+ That markers are:
+
+**>>>>>>>>>>**
+**==========**
+**<<<<<<<<<<**
+
+**>>>>>>>>> FILENAME**  This tells that FILENAME is the master branch from where
+we are making the merge.  
+
+**=========** Lines code above this marker indicates what are the code lines of
+the file of master branch.
+The line codes of the branches files are at the bottom of this marker.
+
+**Note**: After the mergin process we need to stage the modified files and
+make the commit.
