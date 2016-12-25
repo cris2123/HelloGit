@@ -9,7 +9,7 @@
 
 - **git add *.c**: Track all files inside your root directory with specific extension.
 
-- ** git add * ** : Track all files inside your root directory.
+- **git add * ** : Track all files inside your root directory.
 
 - **git clone *url_repositorie***: copy remote repositorie on local folder
 
@@ -36,9 +36,19 @@
 - **git log**: Tells you a history of commits to monitor your work.
 
 
+<<<<<<< HEAD
 
 ## Git branching and merging
 
+-****
+
 -**git merge branch_name**: Lets combine the work of the working branch with the specified branch.
 
-- **git branch -d branch_name**: Remove specified branch. 
+- **git branch -d branch_name**: Remove specified branch.
+
+- **git checkout -b branch_name**: Change to another branch named branch_name. If branch does not exist create the branch.
+
+**Note**: Is recommended that you have all changes commited on your working branch before change to another because git wont let you change it until you have commited all files.
+=======
+
+>>>>>>> practice1
