@@ -34,3 +34,11 @@
 - **git rm *filename* --cached**: Delete filename from staging area but don delete the file from the working directory.
 
 - **git log**: Tells you a history of commits to monitor your work.
+
+
+
+## Git branching and merging
+
+-**git merge branch_name**: Lets combine the work of the working branch with the specified branch.
+
+- **git branch -d branch_name**: Remove specified branch. 
