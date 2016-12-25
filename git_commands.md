@@ -9,7 +9,7 @@
 
 - **git add *.c**: Track all files inside your root directory with specific extension.
 
-- **git add *** : Track all files inside your root directory.
+- ** git add * ** : Track all files inside your root directory.
 
 - **git clone *url_repositorie***: copy remote repositorie on local folder
 
@@ -24,3 +24,13 @@
 - **git commit -m "Message"**:  Creates the commit of staged files.
 
 - **git commit -a -m "Message"**: Stage all files and commit at the same time.
+
+## Git advanced commands
+
+-****
+
+- **git rm *filename***: Delete filename from staging area. It removes the file from the working directory.
+
+- **git rm *filename* --cached**: Delete filename from staging area but don delete the file from the working directory.
+
+- **git log**: Tells you a history of commits to monitor your work.
