@@ -9,7 +9,7 @@
 
 - **git add *.c**: Track all files inside your root directory with specific extension.
 
-- ** git add * ** : Track all files inside your root directory.
+- **git add * ** : Track all files inside your root directory.
 
 - **git clone *url_repositorie***: copy remote repositorie on local folder
 
@@ -34,3 +34,8 @@
 - **git rm *filename* --cached**: Delete filename from staging area but don delete the file from the working directory.
 
 - **git log**: Tells you a history of commits to monitor your work.
+
+
+## Git Branching and merging
+
+-****
