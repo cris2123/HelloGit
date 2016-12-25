@@ -39,3 +39,7 @@
 ## Git Branching and merging
 
 -****
+
+- **git checkout -b branch_name**: Change to another branch named branch_name. If branch does not exist create the branch.
+
+**Note**: Is recommended that you have all changes commited on your working branch before change to another because git wont let you change it until you have commited all files. 
