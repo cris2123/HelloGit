@@ -58,8 +58,8 @@ you have commited all files.
  merging manually. When that happen git put markers on conflicting files.  
  That markers are:
 
-**>>>>>>>>>>**
-**==========**
+**>>>>>>>>>>**      
+**==========**  
 **<<<<<<<<<<**
 
 **>>>>>>>>> FILENAME**  This tells that FILENAME is the master branch from where

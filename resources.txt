@@ -1,0 +1,5 @@
+Resources for git team workflow
+
+https://gist.github.com/blackfalcon/8428401
+https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+https://code.tutsplus.com/articles/team-collaboration-with-github--net-29876
