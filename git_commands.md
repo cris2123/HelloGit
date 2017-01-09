@@ -97,6 +97,9 @@ remote we want to commit.
  - **new repo link**: New URL for remote. Normally is something like this :
 ``https://github.com/USERNAME/OTHERREPOSITORY.git`` if you are using https
 
+- **git remote -v**: Show me the remote to what we are
+pushing.
+
 
 
 
