@@ -69,5 +69,39 @@ we are making the merge.
 the file of master branch.
 The line codes of the branches files are at the bottom of this marker.
 
+When we want to get the remote repo which could have diferents updates from what  
+we have on our local repo , we need first stah our local changes to go back to a
+clean version of work, then we do a git pull to bring the remote change to our local
+repo and finally merge our stashed changes with the changes from the remote
+
+- **``git stash``**
+- **``git pull origin master``**
+- **``git stash pop``**
+
+If we have any conflict with our local changes and the remote ones we wold have to merge corrections manually, and then re commit changes to finish the process.
+
+- **git stash**: Is used when you want to "save" the current state of the working directory and index, but want to go back to a clean working directory (to match
+the HEAD commit )
+
+
+## Git changing a remote's URL repositorie
+-****
+
+We can use git remote set-url  to change to which
+remote we want to commit.
+
+- **git remote set-url** *existing repo name*  *new_repo_link*
+
+ - **existing repo name**: Name of a existing remote repo: upstream, origin are very common
+
+ - **new repo link**: New URL for remote. Normally is something like this :
+``https://github.com/USERNAME/OTHERREPOSITORY.git`` if you are using https
+
+
+
+
+
+
+
 **Note**: After the mergin process we need to stage the modified files and
 make the commit.
