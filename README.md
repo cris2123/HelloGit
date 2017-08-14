@@ -22,14 +22,14 @@ This project does not need any external dependencies only needs git installed on
 
 #### Usage
 
-Use it for future reference for git commands to improve own git workflow
+Use it for future reference for git commands to improve my own git workflow
 
 
 <a name="contributing"/>
 
 #### Contributing
 
-It is posible to make complex use cases to teach people how to git efficiently  
+It is posible to make complex use cases to teach people how use to git better.
 
 <a name="credits"/>
 
