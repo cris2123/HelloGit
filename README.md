@@ -38,4 +38,5 @@ It is posible to make complex use cases to teach people how to git efficiently
 Author: Cristhian Bravo
 
 <a name="license"/>
+
 #### License
