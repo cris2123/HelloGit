@@ -7,9 +7,9 @@
 
 - **git add *filename***: Track specified filename on your local repositorie.
 
-- **git add *.c**: Track all files inside your root directory with specific extension.
+- __git add *.c__: Track all files inside your root directory with specific extension.
 
-- **git add *** : Track all files inside your root directory.
+- __git add *__ : Track all files inside your root directory.
 
 - **git clone *url_repositorie***: copy remote repositorie on local folder
 
