@@ -70,7 +70,7 @@ the file of master branch.
 The line codes of the branches files are at the bottom of this marker.
 
 When we want to get the remote repo which could have diferents updates from what  
-we have on our local repo , we need first stah our local changes to go back to a
+we have on our local repo , we need first stash our local changes to go back to a
 clean version of work, then we do a git pull to bring the remote change to our local
 repo and finally merge our stashed changes with the changes from the remote
 
