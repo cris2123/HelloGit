@@ -25,7 +25,7 @@
 - **git commit -a -m "Message"**: Stage all files and commit at the same time.
 
 ## Git advanced commands
--****
+
 
 - **git rm *filename***: Delete filename from staging area. It removes the file
 from the working directory.
@@ -38,7 +38,7 @@ from the working directory.
 
 ## Git branching and merging
 
--****
+
 
 -**git merge branch_name**: Lets combine the work of the working branch with the
  specified branch.
@@ -83,7 +83,7 @@ the HEAD commit )
 
 
 ## Git changing a remote's URL repositorie
--****
+
 
 We can use git remote set-url  to change to which
 remote we want to commit.
