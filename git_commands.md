@@ -1,7 +1,6 @@
 
 ## Git basics commands
 
--****
 
 - **git init**: Initialize local git repositorie.
 
@@ -11,9 +10,9 @@
 
 - __git add *__ : Track all files inside your root directory.
 
-- **git clone *url_repositorie***: copy remote repositorie on local folder
+- **git clone *url_repositorie***: copy remote repositories on local folder.
 
-- **git status**: Tells on which state are files on local repositorie.
+- **git status**: Tells on which state are files on local repositories.
 
 - **git status -s**: Give status info in a short way.
 
