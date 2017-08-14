@@ -7,7 +7,7 @@
 
 - **git add *filename***: Track specified filename on your local repositorie.
 
-- **git add *.c**: Track all files inside your root directory with specific extension.
+- **git add *.c **: Track all files inside your root directory with specific extension.
 
 - **git add * ** : Track all files inside your root directory.
 
